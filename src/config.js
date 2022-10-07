@@ -5,17 +5,16 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Aptos Alpha Alpacas";
+const description = "A community of 3333 Alpacas vibing and MOVING on the Aptos Blockchain.";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "AAA",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "",
       share: 100,
     },
   ],
@@ -24,17 +23,24 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 3000,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Alpaca" },
+      { name: "Body" },
+      { name: "Face" },
+      { name: "OverHead" },
     ],
   },
+  {
+    growEditionSizeTo: 3333,
+    layersOrder: [
+      { name: "ColoredBackground" },
+      { name: "Alpaca" },
+      { name: "Body" },
+      { name: "Face" },
+    ],
+  }
 ];
 
 const shuffleLayerConfigurations = false;
