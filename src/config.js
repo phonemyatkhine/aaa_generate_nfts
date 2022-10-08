@@ -23,27 +23,45 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 525,
+    growEditionSizeTo: 5,
+    growEditionSizeTo: 2800,
     layersOrder: [
-      
-      { name: "Clown",
-          options : {
-            bypassDNA: true,
-          }
-      },
+      { name: "Background" },
+      { name: "Paca" },
+      { name: "Body" },
+      { name: "Face" },
+      { name: "OverHead" },
     ],
   },
   {
-    growEditionSizeTo: 1000,
+    growEditionSizeTo: 3133,
     layersOrder: [
-      
-      { name: "Copium" ,
-          options : {
-            bypassDNA: true,
-          }
-      },
+      { name: "ColoredBackground" },
+      { name: "Paca" },
+      { name: "Body" },
+      { name: "Face" },
     ],
   },
+  {
+    growEditionSizeTo: 5,
+    growEditionSizeTo: 3283,
+    layersOrder: [
+      { name: "Background" },
+      { name: "SpecialPaca" },
+      { name: "Body" },
+      { name: "Face" },
+      { name: "OverHead" },
+    ],
+  },
+  {
+    growEditionSizeTo: 3333,
+    layersOrder: [
+      { name: "ColoredBackground" },
+      { name: "SpecialPaca" },
+      { name: "Body" },
+      { name: "Face" },
+    ],
+  }
 ];
 
 const shuffleLayerConfigurations = false;
