@@ -24,20 +24,22 @@ const solanaMetadata = {
 const layerConfigurations = [
   {
     growEditionSizeTo: 5,
-    growEditionSizeTo: 2800,
+    growEditionSizeTo: 2300,
     layersOrder: [
-      { name: "Background" },
-      { name: "Paca" },
+      { name: "Backgrounds" },
+      { name: "Pacas" },
+      { name: "Items" },
       { name: "Body" },
       { name: "Face" },
       { name: "OverHead" },
     ],
   },
   {
-    growEditionSizeTo: 3133,
+    growEditionSizeTo: 2633,
     layersOrder: [
-      { name: "ColoredBackground" },
-      { name: "Paca" },
+      { name: "SpecialBackground" },
+      { name: "Pacas" },
+      { name: "Items" },
       { name: "Body" },
       { name: "Face" },
     ],
@@ -46,8 +48,9 @@ const layerConfigurations = [
     growEditionSizeTo: 5,
     growEditionSizeTo: 3283,
     layersOrder: [
-      { name: "Background" },
-      { name: "SpecialPaca" },
+      { name: "Backgrounds" },
+      { name: "SpecialPacas" },
+      { name: "Items" },
       { name: "Body" },
       { name: "Face" },
       { name: "OverHead" },
@@ -56,8 +59,9 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 3333,
     layersOrder: [
-      { name: "ColoredBackground" },
-      { name: "SpecialPaca" },
+      { name: "SpecialBackground" },
+      { name: "SpecialPacas" },
+      { name: "Items" },
       { name: "Body" },
       { name: "Face" },
     ],
